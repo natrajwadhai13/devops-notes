@@ -1,6 +1,6 @@
 ---
 title: "› run"
-parent: "• basics"
+parent: "• Basics"
 grand_parent: Docker
 nav_order: 1
 ---
