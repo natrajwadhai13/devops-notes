@@ -1,6 +1,6 @@
 ---
 title: "• Kubernetes"
-parent: "• DevOps Interview"
+parent: "DevOps Interview"
 nav_order: 1
 has_children: true
 ---
