@@ -22,11 +22,9 @@ has_children: true
 ### 2. Centered and Resized (500px)
 
 
-{% raw %}
 <p align="center">
-  <img src="{{ '/assets/images/ReshmaNatraj.jpg' | relative_url }}" width="500"/>
+  <img src="/devops-notes/assets/images/ReshmaNatraj.jpg" width="500"/>
 </p>
-{% endraw %}
 
 ### 3. Small Image (200px)
 
