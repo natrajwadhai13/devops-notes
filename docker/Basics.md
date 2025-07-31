@@ -22,13 +22,13 @@ has_children: true
 ### 2. Centered and Resized (500px)
 
 <p align="center">
-  <img src="/assets/images/ReshmaNatraj.jpg" alt="Docker Diagram" width="500"/>
+  <img src="{{ '/assets/images/ReshmaNatraj.jpg' | relative_url }}" alt="Docker Diagram" width="500"/>
 </p>
 
 ### 3. Small Image (200px)
 
 <p align="center">
-  <img src="/assets/images/Natraj.jpg" alt="Docker Diagram" width="200"/>
+  <img src="{{ '/assets/images/Natraj.jpg' | relative_url }}" alt="Docker Diagram" width="200"/>
 </p>
 
 ### 4. Final Image (Standard)
