@@ -33,4 +33,4 @@ has_children: true
 
 ### 4. Final Image (Standard)
 
-![Docker Architecture](/assets/images/docker-Reshma.jpg)
+![Docker Architecture](/assets/images/Reshma.jpg)
