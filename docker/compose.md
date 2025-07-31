@@ -1,7 +1,7 @@
 ---
-title: Basics
+title: Compose
 parent: Docker
-nav_order: 1
+nav_order: 2
 ---
 
 # Docker Compose
