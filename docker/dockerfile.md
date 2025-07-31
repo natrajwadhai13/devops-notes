@@ -1,5 +1,5 @@
 ---
-title: Basics
+title: • Basics
 parent: Docker
 nav_order: 1
 ---
