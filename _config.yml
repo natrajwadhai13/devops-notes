@@ -1,0 +1,40 @@
+title: DevOps Notes
+theme: just-the-docs
+
+aux_links:
+  GitHub: https://github.com/natrajwadhai13/devops-notes
+
+nav:
+  - title: Git
+    children:
+      - title: Git Basics
+        url: /git/basics
+      - title: Branching
+        url: /git/branching
+      - title: Git Commands
+        url: /git/commands
+
+  - title: Docker
+    children:
+      - title: Docker Basics
+        url: /docker/basics
+      - title: Dockerfile
+        url: /docker/dockerfile
+      - title: Docker Compose
+        url: /docker/compose
+
+  - title: Jenkins
+    children:
+      - title: Jenkins Pipeline
+        url: /jenkins/pipeline
+      - title: Jenkinsfile
+        url: /jenkins/jenkinsfile
+
+  - title: Kubernetes
+    children:
+      - title: K8s Basics
+        url: /kubernetes/basics
+      - title: Pods & Services
+        url: /kubernetes/pods-services
+      - title: Helm Charts
+        url: /kubernetes/helm
