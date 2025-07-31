@@ -1,7 +1,7 @@
 ---
-title: "› Kubernetes basics"
-parent: "• Kubernetes"
+title: "› Kubernetes Basics"
 grand_parent: "• DevOps Interview"
+parent: "Kubernetes"
 nav_order: 1
 ---
 
