@@ -1,13 +1,20 @@
 title: DevOps Notes
+
 remote_theme: just-the-docs/just-the-docs
 
 plugins:
   - jekyll-remote-theme
 
+sass:
+  style: compressed
+
+just_the_docs:
+  custom_css: custom/custom.scss
+
 aux_links:
   GitHub: https://github.com/natrajwadhai13/devops-notes
 
-# Optional nav (if you're manually building one)
+# Optional nav (uncomment and edit if you're manually building one)
 # nav:
 #   - title: Git
 #     children:

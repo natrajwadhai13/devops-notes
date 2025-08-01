@@ -1,0 +1,9 @@
+// Custom sidebar width
+.side-bar {
+  width: 200px !important;
+}
+
+// Push main content to match new sidebar width
+.main {
+  margin-left: 200px !important;
+}
