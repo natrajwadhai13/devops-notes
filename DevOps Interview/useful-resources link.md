@@ -1,7 +1,8 @@
 ---
 title: "• Useful Resources Link"
-parent: "• DevOps Interview"
+parent: "DevOps Interview"
 nav_order: 2
+has_children: true
 ---
 
 # 🌐 Useful DevOps Resources
