@@ -1,7 +1,7 @@
 ---
 title: "1. backup_rotaion"
-nav_order: 1
-parent: "1. Scipts Example"
+nav_order: 4
+parent: "24. Hands-on Projects"
 grand_parent: "• Shell & Bash_Scripting"
 grand_grand_parent: "5. Scripting Languages"
 ---
