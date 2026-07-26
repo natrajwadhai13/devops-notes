@@ -1,5 +1,5 @@
 ---
-title: "14-CPU-and-Memory-Alert-Script"
+title: "• CPU-and-Memory-Alert-Script"
 nav_order: 14
 parent: "24. Hands-on Projects"
 grand_parent: "• Shell & Bash_Scripting"
