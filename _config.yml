@@ -1,17 +1,15 @@
 title: 🏠 Home
 description: Your complete DevOps study reference.
-
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-include-cache
+  - jekyll-remote-theme
 
 color_scheme: light
 
 sass:
   style: compressed
-
+  
 just_the_docs:
   logo: "/assets/images/devops-logo.png"
   favicon_ico: "/assets/images/favicon.ico"
@@ -21,16 +19,18 @@ just_the_docs:
   last_edit_timestamp: false
   show_last_modified_time: false
 
-collections:
-  devops:
-    name: "DevOps Playbook"
-    permalink: /:path/
+  collections:
+    devops:
+      name: "DevOps Playbook"
+      permalink: /:path/
 
-nav_sort: case_insensitive
-
-custom_css: custom/custom.scss
+  nav_sort: case_insensitive
+  custom_css: custom/custom.scss
 
 aux_links:
-  Home: "https://natrajwadhai13.github.io/devops-playbook/"
-  GitHub Repo: "https://github.com/natrajwadhai13/devops-playbook"
-  Portfolio: "https://natrajwadhai13.github.io/devops-playbook/#portfolio"
+  🏠 Home: https://natrajwadhai13.github.io/devops-playbook/
+  GitHub Repo: https://github.com/natrajwadhai13/devops-playbook
+  Portfolio: https://natrajwadhai13.github.io/devops-playbook/#portfolio
+
+
+
