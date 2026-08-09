@@ -112,3 +112,252 @@ touch "1. Introduction.md" \
 "20. Projects.md"
 
 ```
+=================================
+
+#Terraform
+
+
+Bilkul. **Sirf `.md` files** banengi, aur har file ke andar required front matter bhi automatically add hoga.
+
+
+```bash
+i=1
+
+for dir in \
+"1. Terraform Fundamentals" \
+"2. Installation and Setup" \
+"3. Terraform Configuration Language (HCL)" \
+"4. Providers" \
+"5. Resources" \
+"6. Data Sources" \
+"7. Variables" \
+"8. Outputs" \
+"9. Local Values" \
+"10. Expressions and Functions" \
+"11. Conditional Logic" \
+"12. Loops and Dynamic Blocks" \
+"13. Terraform State" \
+"14. Remote Backend" \
+"15. Terraform Modules" \
+"16. Resource Lifecycle" \
+"17. Provisioners" \
+"18. Terraform Import" \
+"19. Terraform Drift" \
+"20. Terraform Workspaces" \
+"21. Terraform Security" \
+"22. Terraform Validation and Testing" \
+"23. Terraform CI-CD" \
+"24. HCP Terraform" \
+"25. Advanced Terraform"
+do
+
+cat > "$dir.md" <<EOF
+---
+title: "$dir"
+parent: "• Terraform"
+grand_parent: "6. Cloud Automation Tools"
+nav_order: $i
+has_children: true
+---
+
+EOF
+
+i=$((i + 1))
+
+done
+```
+
+### Example output
+
+`1. Terraform Fundamentals.md`:
+
+```yaml
+---
+title: "1. Terraform Fundamentals"
+parent: "• Terraform"
+grand_parent: "6. Cloud Automation Tools"
+nav_order: 1
+has_children: true
+---
+```
+
+`2. Installation and Setup.md`:
+
+```yaml
+---
+title: "2. Installation and Setup"
+parent: "• Terraform"
+grand_parent: "6. Cloud Automation Tools"
+nav_order: 2
+has_children: true
+---
+```
+
+### Final structure
+
+```text
+Terraform/
+├── 1. Terraform Fundamentals.md
+├── 2. Installation and Setup.md
+├── 3. Terraform Configuration Language (HCL).md
+├── 4. Providers.md
+├── 5. Resources.md
+├── 6. Data Sources.md
+├── 7. Variables.md
+├── 8. Outputs.md
+├── 9. Local Values.md
+├── 10. Expressions and Functions.md
+├── 11. Conditional Logic.md
+├── 12. Loops and Dynamic Blocks.md
+├── 13. Terraform State.md
+├── 14. Remote Backend.md
+├── 15. Terraform Modules.md
+├── 16. Resource Lifecycle.md
+├── 17. Provisioners.md
+├── 18. Terraform Import.md
+├── 19. Terraform Drift.md
+├── 20. Terraform Workspaces.md
+├── 21. Terraform Security.md
+├── 22. Terraform Validation and Testing.md
+├── 23. Terraform CI-CD.md
+├── 24. HCP Terraform.md
+└── 25. Advanced Terraform.md
+```
+
+**No folders will be created. Only 25 `.md` files + front matter.**
+
+=========================
+
+# if I want add folder and file 
+
+
+Haan, samajh gaya. Aapko **README.md nahi**, balki folder ke naam ke same **`.md` file** chahiye.
+
+Example:
+
+```text
+• Terraform/
+├── 1. Terraform Fundamentals/
+│   └── 1. Terraform Fundamentals.md
+├── 2. Installation and Setup/
+│   └── 2. Installation and Setup.md
+├── 3. Terraform Configuration Language (HCL)/
+│   └── 3. Terraform Configuration Language (HCL).md
+└── ...
+```
+
+### Git Bash command
+
+Aap `• Terraform` folder ke andar run karo:
+
+```bash
+for dir in \
+"1. Terraform Fundamentals" \
+"2. Installation and Setup" \
+"3. Terraform Configuration Language (HCL)" \
+"4. Providers" \
+"5. Resources" \
+"6. Data Sources" \
+"7. Variables" \
+"8. Outputs" \
+"9. Local Values" \
+"10. Expressions and Functions" \
+"11. Conditional Logic" \
+"12. Loops and Dynamic Blocks" \
+"13. Terraform State" \
+"14. Remote Backend" \
+"15. Terraform Modules" \
+"16. Resource Lifecycle" \
+"17. Provisioners" \
+"18. Terraform Import" \
+"19. Terraform Drift" \
+"20. Terraform Workspaces" \
+"21. Terraform Security" \
+"22. Terraform Validation and Testing" \
+"23. Terraform CI-CD" \
+"24. HCP Terraform" \
+"25. Advanced Terraform"
+do
+    mkdir -p "$dir"
+    touch "$dir/$dir.md"
+done
+```
+
+### Front matter bhi automatically add karna ho
+
+Ye **better command** hai, jo folder + same-name `.md` file + GitHub Pages front matter sab create karega:
+
+```bash
+i=1
+
+for dir in \
+"1. Terraform Fundamentals" \
+"2. Installation and Setup" \
+"3. Terraform Configuration Language (HCL)" \
+"4. Providers" \
+"5. Resources" \
+"6. Data Sources" \
+"7. Variables" \
+"8. Outputs" \
+"9. Local Values" \
+"10. Expressions and Functions" \
+"11. Conditional Logic" \
+"12. Loops and Dynamic Blocks" \
+"13. Terraform State" \
+"14. Remote Backend" \
+"15. Terraform Modules" \
+"16. Resource Lifecycle" \
+"17. Provisioners" \
+"18. Terraform Import" \
+"19. Terraform Drift" \
+"20. Terraform Workspaces" \
+"21. Terraform Security" \
+"22. Terraform Validation and Testing" \
+"23. Terraform CI-CD" \
+"24. HCP Terraform" \
+"25. Advanced Terraform"
+do
+    mkdir -p "$dir"
+
+    cat > "$dir/$dir.md" <<EOF
+---
+title: "$dir"
+parent: "• Terraform"
+grand_parent: "6. Cloud Automation Tools"
+nav_order: $i
+has_children: true
+---
+
+EOF
+
+    i=$((i + 1))
+done
+```
+
+Result:
+
+```text
+• Terraform/
+│
+├── 1. Terraform Fundamentals/
+│   └── 1. Terraform Fundamentals.md
+│
+├── 2. Installation and Setup/
+│   └── 2. Installation and Setup.md
+│
+├── 3. Terraform Configuration Language (HCL)/
+│   └── 3. Terraform Configuration Language (HCL).md
+│
+├── 4. Providers/
+│   └── 4. Providers.md
+│
+├── 5. Resources/
+│   └── 5. Resources.md
+│
+...
+│
+└── 25. Advanced Terraform/
+    └── 25. Advanced Terraform.md
+```
+
+
