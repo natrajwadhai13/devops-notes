@@ -1,6 +1,6 @@
 ---
 title: "• Argo CD"
-parent: 4. DevOps Core Tools
+parent: 3. DevOps Core Tools
 nav_order: 4
 has_children: true
 ---
