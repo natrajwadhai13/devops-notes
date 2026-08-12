@@ -112,13 +112,12 @@ touch "1. Introduction.md" \
 "20. Projects.md"
 
 ```
+
 =================================
 
-#Terraform
-
+## Terraform
 
 Bilkul. **Sirf `.md` files** banengi, aur har file ke andar required front matter bhi automatically add hoga.
-
 
 ```bash
 i=1
@@ -228,8 +227,7 @@ Terraform/
 
 =========================
 
-# if I want add folder and file 
-
+# if I want add folder and file
 
 Haan, samajh gaya. Aapko **README.md nahi**, balki folder ke naam ke same **`.md` file** chahiye.
 
@@ -359,5 +357,3 @@ Result:
 └── 25. Advanced Terraform/
     └── 25. Advanced Terraform.md
 ```
-
-
