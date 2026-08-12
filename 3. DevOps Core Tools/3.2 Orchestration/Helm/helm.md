@@ -1287,15 +1287,3 @@ helm install app apache-helm -f values-prod.yaml
 ✔ Yes
 ArgoCD pulls Helm charts from Git/OCI registry and deploys them automatically (GitOps).
 
----
-
-# ⭐ Ready to download?
-
-I can also create:
-
-📌 **PDF (1-page project)**
-📌 **Excel (all Helm commands)**
-📌 **Diagram (Helm + ArgoCD architecture)**
-
-Just tell me:
-**PDF / Excel / Diagram**

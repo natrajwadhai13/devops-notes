@@ -1,12 +1,12 @@
 ---
 title: "• Helm Chart Syllabus"
 parent: "• Helm"
-grand_parent: 4. DevOps Core Tools
-nav_order: 16
+grand_parent: 3. DevOps Core Tools
+nav_order: 0
 has_children: true
 ---
 
-Yes. For **Helm Chart**, especially for a **DevOps interview + practical Kubernetes work**, you don't need every Helm feature initially. Focus on these topics in this order:
+**DevOps interview + practical Kubernetes work**, you don't need every Helm feature initially. Focus on these topics in this order:
 
 ### Helm Chart — Important Syllabus
 
