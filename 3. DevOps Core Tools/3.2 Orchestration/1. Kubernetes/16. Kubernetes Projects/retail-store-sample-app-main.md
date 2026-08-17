@@ -1,11 +1,111 @@
 ---
-title: "• retail-store-sample-app-main"
+title: "• retail-store-sample-app"
 parent: "16. Kubernetes Projects"
 grand_parent: "• Kubernetes"
 grand_grand_parent: 3. DevOps Core Tools
 nav_order: 1
 has_children: true
 ---
+
+- [GitHub URL for retail-store-sample-app ](https://github.com/natrajwadhai13/retail-store-sample-app.git)
+
+---
+
+## Kubernetes To Production In One Shot
+
+### Phase 1: Project Architecture & Infrastructure Setup
+
+#### Project Introduction
+
+- Modern e-commerce application with 5 microservices architecture
+- Benefits of microservices vs monolithic architecture
+- Using Amazon EKS Auto Mode in Production
+
+#### Infrastructure Deployment
+
+- Verify prerequisite tools installation (AWS CLI, Terraform, kubectl, Helm)
+- Initialize Terraform and review infrastructure code structure
+- Deploy core infrastructure: VPC with proper networking and EKS cluster
+- Configure kubectl access to the newly created cluster
+- Deploy platform services: NGINX Ingress Controller, Cert Manager, ArgoCD
+- Verify all components are running and accessible
+
+### Phase 2: Kubernetes & Application Understanding
+
+#### Application Architecture Deep Dive
+
+- Analyze each microservice’s business purpose and technology stack
+- Review Dockerfile structure for different programming languages
+- Examine Helm chart templates and values for each service
+- Understand service-to-service communication patterns
+
+#### Container & Deployment Understanding (45 minutes)
+
+- Study containerization approach for each service type
+- Review Helm chart structure and Kubernetes resource definitions
+- Analyze ArgoCD application definitions and sync policies
+- Understand how services are exposed and networked
+
+### Phase 3: GitOps Deployment & Operations
+
+#### ArgoCD Setup & Access (30 minutes)
+
+- Access ArgoCD admin credentials securely
+- Set up port-forwarding to access ArgoCD UI
+- Review GitOps principles and benefits (Single Source Of Truth)
+
+#### GitOps Workflow in Action
+
+- Monitor automatic application deployment from Git repository
+- Observe ArgoCD sync process and application health monitoring
+- Understand declarative configuration management
+- Watch self-healing capabilities in action
+
+#### Application Access & Testing
+
+- Obtain application load balancer URL
+- Test complete e-commerce functionality through browser
+- Verify all microservices are communicating properly
+- Test different user workflows (browse, add to cart, checkout)
+
+#### Operations & Troubleshooting
+
+- Monitor application health and performance metrics
+- Practice troubleshooting common deployment issues
+- Review application logs across different services
+- Learn to identify and resolve sync issues in ArgoCD
+- Understand rollback procedures and version management
+
+### Overall Learning Outcomes
+
+#### Technical Skills Gained:
+
+- Infrastructure as Code with Terraform
+- Kubernetes cluster management and operations
+- Container orchestration and microservices deployment
+- GitOps methodology and ArgoCD operations
+- AWS cloud services integration
+- Production troubleshooting and monitoring
+
+#### DevOps Practices Learned:
+
+- Declarative infrastructure management
+- Automated deployment pipelines
+- Self-healing infrastructure concepts
+- Version control for infrastructure and applications
+- Monitoring and observability practices
+- Security best practices for cloud deployments
+
+#### Industry-Ready Knowledge:
+
+- Modern microservices architecture patterns
+- Cloud-native application deployment strategies
+- GitOps as a deployment methodology
+- Kubernetes production operations
+- AWS EKS management and optimization
+- End-to-end DevOps workflow implementation
+
+=========================================
 
 Aapke interview ke liye ye project kaafi useful hai, kyunki isme **Infrastructure → Container → Kubernetes → Helm → GitOps → Application deployment** complete flow dikhaya ja sakta hai.
 
@@ -1856,7 +1956,7 @@ For interview, don't explain every technical file. Tell the story in this order:
 ## Fund Administration – DevOps Project Explanation
 
 1. **Project Introduction**
-   I am working with **UBS** in the Fund Administration domain. We manage multiple applications that support different stages of investment and fund-management activities.
+   I am working with **Company Name** in the Fund Administration domain. We manage multiple applications that support different stages of investment and fund-management activities.
 
 2. **Business Requirement**
    The business works with multiple investment/start-up companies. The applications help manage activities such as fund calculations, client communication, reporting, UI operations and other backend processing.
@@ -1949,6 +2049,6 @@ NGINX Ingress / Load Balancer
 
 You can start your interview answer like this:
 
-> **"Currently, I am working with UBS in the Fund Administration domain. We manage more than 20 applications developed using different technologies such as Java, .NET and Node.js. These applications support different business functions including UI, calculations, client communication, backend processing and reporting. My role is mainly focused on DevOps, environment management, infrastructure provisioning and application deployment. We use GitLab for source-code management, Terraform for AWS infrastructure, Docker for containerization, ECR for image management and Amazon EKS for Kubernetes-based deployments. For CI/CD, we use SonarQube for code-quality analysis and Trivy for vulnerability scanning. We follow a GitOps approach using Helm and Argo CD, where deployment configurations are maintained in GitLab and Argo CD synchronizes them with the EKS cluster. For application access, we use NGINX Ingress and AWS load balancing. So, I am involved in the complete flow from source-code commit to application deployment and troubleshooting in the EKS environment."**
+> **"Currently, I am working with (company name) in the Fund Administration domain. We manage more than 20 applications developed using different technologies such as Java, .NET and Node.js. These applications support different business functions including UI, calculations, client communication, backend processing and reporting. My role is mainly focused on DevOps, environment management, infrastructure provisioning and application deployment. We use GitLab for source-code management, Terraform for AWS infrastructure, Docker for containerization, ECR for image management and Amazon EKS for Kubernetes-based deployments. For CI/CD, we use SonarQube for code-quality analysis and Trivy for vulnerability scanning. We follow a GitOps approach using Helm and Argo CD, where deployment configurations are maintained in GitLab and Argo CD synchronizes them with the EKS cluster. For application access, we use NGINX Ingress and AWS load balancing. So, I am involved in the complete flow from source-code commit to application deployment and troubleshooting in the EKS environment."**
 
 This is a **good 2–3 minute project introduction**. Then, if the interviewer asks deeper questions, you can go into **Terraform → EKS → Docker → GitLab CI → Trivy → SonarQube → ECR → Helm → Argo CD → Kubernetes → NGINX** one by one.
