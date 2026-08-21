@@ -91,7 +91,6 @@ has_children: true
 
 ==================================================================
 
-Great 👍 Natraj, here are **real-world company examples** for each so you can confidently mention them in interviews:
 
 ---
 
@@ -111,7 +110,7 @@ Great 👍 Natraj, here are **real-world company examples** for each so you can 
 
 * **Siemens** → uses GitLab for CI/CD pipelines and DevOps automation.
 * **Goldman Sachs** → uses GitLab for regulated financial environments (security, compliance).
-* **UBS** → uses GitLab for DevOps modernization (this can click for you since UBS is your client 😃).
+* **UBS** → uses GitLab for DevOps modernization.
 * **SpaceX** → reportedly uses GitLab CE for internal code management.
 
 📌 **Interview point**:
