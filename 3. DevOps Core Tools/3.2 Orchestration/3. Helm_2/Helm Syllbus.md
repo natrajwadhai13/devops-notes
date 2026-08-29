@@ -1,6 +1,6 @@
 ---
 title: "• Helm Chart Syllabus"
-parent: "• Helm"
+parent: "• Helm_v2"
 grand_parent: 3. DevOps Core Tools
 nav_order: 0
 has_children: true
