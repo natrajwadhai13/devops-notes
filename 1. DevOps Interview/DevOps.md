@@ -4,22 +4,22 @@ has_children: true
 nav_order: 2
 ---
 
-- [1. Linux](#Linux)
+- [1. Linux ⭐ CORE](#Linux)
 - [2. Git](#Git)
 - [3. GitHub](#GitHub)
 - [4. GitHub Actions](#GitHub-Actions)
-- [5. GitLab CI/CD](#GitLab-CICD)
-- [6. Jenkins](#Jenkins)
+- [5. GitLab CI/CD ⭐ CORE](#GitLab-CICD)
+- [6. Jenkins ⭐ CORE](#Jenkins)
 - [7. Docker](#Docker)
-- [8. Kubernetes](#Kubernetes)
-- [9. Helm](#Helm)
+- [8. Kubernetes ⭐ CORE](#Kubernetes)
+- [9. Helm ⭐ CORE](#Helm)
 - [10. Argo CD](#Argo-CD)
-- [11. Terraform](#Terraform)
-- [12. AWS](#AWS)
-- [13. Microsoft Azure](#Microsoft-Azure)
+- [11. Terraform ⭐ CORE](#Terraform)
+- [12. AWS ⭐ CORE](#AWS)
+- [13. Microsoft Azure ⭐ CORE](#Microsoft-Azure)
 - [14. AWS vs Azure](#AWS-vs-Azure)
-- [15. Ansible](#Ansible)
-- [16. Bash / Shell Scripting](#Bash--Shell-Scripting)
+- [15. Ansible ⭐ CORE](#Ansible)
+- [16. Bash / Shell Scripting ⭐ CORE](#Bash--Shell-Scripting)
 - [17. Python](#Python)
 - [18. YAML](#YAML)
 - [19. JSON](#JSON)
@@ -32,7 +32,7 @@ nav_order: 2
 - [26. Prometheus](#Prometheus)
 - [27. Grafana](#Grafana)
 - [28. OpenTelemetry](#OpenTelemetry)
-- [29. LGTM Stack](#LGTM-Stack)
+- [29. LGTM Stack ⭐ CORE](#LGTM-Stack)
 - [30. Splunk](#Splunk)
 - [31. BigPanda](#BigPanda)
 - [32. AI & Development Tools](#AI--Development-Tools)
@@ -54,7 +54,7 @@ nav_order: 2
 
 <a id="Grafana"></a>
 <a id="OpenTelemetry"></a>
-<a id="LGTM-Stack"></a>
+
 <a id="Splunk"></a>
 <a id="BigPanda"></a>
 <a id="AI--Development-Tools"></a>
@@ -1613,6 +1613,10 @@ Backend
 - Context Propagation
 
 ---
+
+====================================
+
+<a id="LGTM-Stack"></a>
 
 # 32. LGTM Stack
 
