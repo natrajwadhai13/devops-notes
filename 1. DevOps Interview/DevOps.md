@@ -26,40 +26,16 @@ nav_order: 2
 - [20. Apache HTTP Server](#Apache-HTTP-Server)
 - [21. Nginx](#Nginx)
 - [22. Tomcat](#Tomcat)
-- [23. JBoss](#JBoss)
-- [24. WildFly](#WildFly)
-- [25. SSL/TLS](#SSLTLS)
-- [26. Prometheus](#Prometheus)
-- [27. Grafana](#Grafana)
-- [28. OpenTelemetry](#OpenTelemetry)
-- [29. LGTM Stack ⭐ CORE](#LGTM-Stack)
-- [30. Splunk](#Splunk)
-- [31. BigPanda](#BigPanda)
-- [32. AI & Development Tools](#AI--Development-Tools)
+- [23. JBoss-WildFly](#JBoss)
+- [24. SSL/TLS](#SSLTLS)
+- [25. Prometheus/Grafana/OpenTelemetry](#Prometheus)
+- [26. LGTM Stack ⭐ CORE](#LGTM-Stack)
+- [27. Splunk](#Splunk)
+- [28. BigPanda](#BigPanda)
+- [29. AI & Development Tools](#AI--Development-Tools)
 
 ---
 
-====================================
-
-<a id="Bash--Shell-Scripting"></a>
-<a id="Python"></a>
-<a id="YAML"></a>
-<a id="JSON"></a>
-<a id="Apache-HTTP-Server"></a>
-<a id="Nginx"></a>
-<a id="Tomcat"></a>
-<a id="JBoss"></a>
-<a id="WildFly"></a>
-<a id="SSLTLS"></a>
-
-<a id="Grafana"></a>
-<a id="OpenTelemetry"></a>
-
-<a id="Splunk"></a>
-<a id="BigPanda"></a>
-<a id="AI--Development-Tools"></a>
-
----
 
 # 🚀 DevOps Quick Review
 
@@ -93,10 +69,7 @@ cut, awk, sed, xargs, wc, tr
 ### Permissions
 
 ```bash
-chmod
-chown
-chgrp
-umask
+chmod, chown, chgrp, umask.
 ```
 
 - Read / Write / Execute
@@ -109,27 +82,15 @@ umask
 ### Users & Groups
 
 ```bash
-useradd, usermod, userdel
+useradd, usermod, userdel, groupadd, groupmod, groupdel
 
-groupadd
-
-passwd, id, who, whoami
-
-sudo, su
+passwd, id, who, whoami, sudo, su
 ```
 
 ### Process Management
 
 ```bash
-ps
-top
-htop
-kill
-pkill
-jobs
-bg
-fg
-nohup
+ps, top, htop, kill, pkill, jobs, bg, fg, nohup
 ```
 
 ### Services
@@ -153,16 +114,9 @@ mount
 ### Networking
 
 ```bash
-ping
-curl
-wget
-ss
-netstat
-nslookup
-dig
-traceroute
-ip
-hostname
+ping, curl, wget, ss, netstat
+nslookup, dig, traceroute
+ip, hostname
 ```
 
 ### SSH
@@ -224,25 +178,11 @@ Remote Repository
 ### Essential Commands
 
 ```bash
-git init
-git clone
-git status
-git add
-git commit
-git push
-git pull
-git fetch
-git log
-git diff
-git branch
-git switch
-git checkout
-git merge
-git rebase
-git stash
-git reset
-git revert
-git tag
+git init, git clone, git status, git add, git commit
+git push, git pull, git fetch
+git log, git diff
+git branch, git switch, git checkout, git merge
+git rebase, git stash, git reset, git revert, git tag
 ```
 
 ### Git Concepts
@@ -1220,6 +1160,9 @@ Managed Nodes
 
 ---
 
+<a id="Bash--Shell-Scripting"></a>
+
+
 # 20. Bash / Shell Scripting
 
 ### Core Concepts
@@ -1276,6 +1219,8 @@ tr
 - File Monitoring
 
 ---
+<a id="Python"></a>
+
 
 # 21. Python
 
@@ -1307,6 +1252,7 @@ tr
 - Log processing
 
 ---
+<a id="YAML"></a>
 
 # 22. YAML
 
@@ -1349,6 +1295,7 @@ Know:
 - Anchors
 
 ---
+<a id="JSON"></a>
 
 # 23. JSON
 
@@ -1382,6 +1329,7 @@ Example:
 - Kubernetes
 
 ---
+<a id="Apache-HTTP-Server"></a>
 
 # 24. Apache HTTP Server
 
@@ -1399,6 +1347,7 @@ Example:
 - Error Logs
 
 ---
+<a id="Nginx"></a>
 
 # 25. Nginx
 
@@ -1429,6 +1378,7 @@ Database
 ```
 
 ---
+<a id="Tomcat"></a>
 
 # 26. Tomcat
 
@@ -1448,8 +1398,10 @@ Database
 - Service Management
 
 ---
+<a id="JBoss"></a>
 
 # 27. JBoss / WildFly
+
 
 ### Important Topics
 
@@ -1467,6 +1419,7 @@ Database
 
 ---
 
+<a id="SSLTLS"></a>
 # 28. SSL/TLS
 
 ```text
@@ -1557,6 +1510,8 @@ Grafana
 
 ---
 
+<a id="Grafana"></a>
+
 # 30. Grafana
 
 ```text
@@ -1578,6 +1533,8 @@ Dashboard
 - Visualization
 
 ---
+
+<a id="OpenTelemetry"></a>
 
 # 31. OpenTelemetry
 
@@ -1641,6 +1598,8 @@ Applications
 
 ---
 
+<a id="Splunk"></a>
+
 # 33. Splunk
 
 ### Important Concepts
@@ -1663,6 +1622,9 @@ index=application
 ```
 
 ---
+
+<a id="BigPanda"></a>
+
 
 # 34. BigPanda
 
@@ -1693,6 +1655,8 @@ Know:
 - Integration
 
 ---
+
+<a id="AI--Development-Tools"></a>
 
 # 35. AI & Development Tools
 
