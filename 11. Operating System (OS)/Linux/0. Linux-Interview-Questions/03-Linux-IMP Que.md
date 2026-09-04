@@ -1,6 +1,6 @@
 ---
 title: "• Linux-IMP Que"
-parent: "• Linux-Interview-Questions"
+parent: "• Linux-Interview-QA"
 grand_parent: • Linux
 grand_grand_parent: 11. Operating System (OS)
 nav_order: 1

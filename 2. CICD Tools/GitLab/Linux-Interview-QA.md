@@ -1,8 +1,9 @@
 ---
-title: "• GitLab"
-parent: "• DevOps Interview"
-grand_parent: "1. DevOps"
+title: • Linux-Interview-QA 
+parent: • GitLab  
+grand_parent: 2. CICD Tools  
 nav_order: 4
+has_children: true  
 ---
 
 
