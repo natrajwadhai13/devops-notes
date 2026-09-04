@@ -1,9 +1,10 @@
 ---
-title: "• 02-Linux-Troubleshooting"
-parent: "• Linux"
-grand_parent: "• DevOps Interview"
-grand_grand_parent: "1. DevOps"
+title: "• Linux-Troubleshooting"
+parent: "• Linux-Interview-Questions"
+grand_parent: • Linux
+grand_grand_parent: 11. Operating System (OS)
 nav_order: 2
+has_children: true
 ---
 
 # 🛠 Linux Troubleshooting & Production Scenarios (250+)

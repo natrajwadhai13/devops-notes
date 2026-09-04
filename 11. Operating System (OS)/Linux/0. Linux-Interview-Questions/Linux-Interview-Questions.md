@@ -1,8 +1,9 @@
 ---
-title: "• Linux"
-parent: "• DevOps Interview"
-grand_parent: "1. DevOps"
-nav_order: 1
+title: "• Linux-Interview-Questions"
+parent: • Linux
+grand_parent: 11. Operating System (OS)
+nav_order: 0
+has_children: true
 ---
 
 I think this is the **best structure** for your GitHub repository. It's simple, professional, and easy to maintain.
