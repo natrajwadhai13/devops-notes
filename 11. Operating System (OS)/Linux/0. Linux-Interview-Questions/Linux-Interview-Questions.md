@@ -1,5 +1,5 @@
 ---
-title: "• Linux-Interview-Questions"
+title: "• Linux-Interview-QA"
 parent: • Linux
 grand_parent: 11. Operating System (OS)
 nav_order: 0
